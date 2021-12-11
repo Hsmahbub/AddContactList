@@ -13,7 +13,6 @@ const AddressList = document.getElementById('Addresslist');
 const print = document.getElementById('print')
 const content = document.getElementById('content')
 const form = document.getElementById('form');
-
 let counter = 0;
 
 btn.addEventListener('click', function(d){
@@ -64,7 +63,7 @@ print.addEventListener('click', (e) => {
         form.style.display ="none";
         alert('Do you want to print?');
         window.print();
-        form.style.display ="block";
+        
         
 })
 
